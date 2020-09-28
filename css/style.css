@@ -1,0 +1,136 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #042A2B;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    
+}
+
+/* NAV BAR SETUP */
+
+nav {
+    padding: 1.5% 0 1.5%;
+    position: fixed;
+    width: 100vw;
+    background-color: #23b5d3;    
+    box-shadow: 0 1px 5px #000;
+}
+
+nav a {
+    padding: 1.5% 3%;
+    text-decoration: none;
+    color: #f7f7ff;
+}
+
+nav a:hover {
+    background-color: #f7f7ff;
+    text-decoration: underline;
+    color: #0D1321;
+}
+
+/* HELLO SECTION - IN HEADER */
+
+#hello {
+    flex-direction: column;
+    background-color: #23b5d3;
+}
+
+main {
+    
+}
+
+/* COMBINED DISPLAY */
+
+#hello,
+#about,
+#contact,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#abt-content,
+#contact div {
+    padding: 0 5%;
+}
+
+#about {
+    background-color: #f7f7ff;
+}
+
+#contact {
+    background-color: #FE4A49;
+}
+
+.img {
+    padding: 0 10%;
+}
+
+footer {
+    height: 10vh;
+    background-color: #5C574F;
+    color: #f7f7ff;
+}
+
+h3,
+#about p {
+    color: #5C574F;
+}
+
+#contact div {
+    width: 100vw;
+    text-align: center;
+}
+
+#contact h2 {
+    padding-bottom: 5%;
+}
+
+#contact img {
+    padding-right: 5%;
+}
+
+/* PROGRESS BARS IN THE ABOUT ME SECTION */
+
+.html,
+.css,
+.js {
+    background-color: #5C574F;
+    border-radius: 13px;
+    padding: 3px;
+    height: 20px;
+    width: 25vw;
+}
+
+.html > div,
+.css > div,
+.js > div {
+    content: '';
+    display: block;
+    background-color: #23b5d3;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.html > div {
+    width: 90%;
+}
+
+.css > div {
+    width: 70%;
+}
+
+.js > div {
+    width: 5%;
+}
