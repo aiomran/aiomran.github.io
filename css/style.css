@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
     /* BEAUTY MODS */
     background-color: #1B2A41;
     color: #CCC9DC;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* FLEXBOX INSTRUCTIONS*/
@@ -67,5 +69,3 @@ a:hover {
     border-radius: 50px 15px;
     background-image: linear-gradient(40deg, rgba(204,201,220,1) 0%, rgba(12,24,33,1) 50%);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
