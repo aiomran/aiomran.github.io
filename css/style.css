@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+/*
+COLORS
+#1B9AAA - accent light blue
+#0C1821 - header & footer
+#1B2A41 - body
+#FF3A20 - accent red
+#CCC9DC - font
+*/
+
 body {
     /* BEAUTY MODS */
     background-color: #1B2A41;
