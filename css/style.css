@@ -35,6 +35,10 @@ header {
     background-color: #0C1821;
 }
 
+#portfolio {
+    justify-content: center;
+}
+
 section {
     padding: 0 10px;
     width: 50vh;
@@ -54,6 +58,10 @@ footer {
     list-style-type: none;
 }
 
+.special {
+    color: #FF3A20;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -63,6 +71,29 @@ a {
     height: .5em;
     margin: 0 1em;
     padding: 1.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+img {
+    width: 200%;
+    height: 200%;
+    border-radius: 100px 30px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }
 
 a:hover {
