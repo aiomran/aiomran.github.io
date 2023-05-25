@@ -1,5 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+body {
+    background-color: #1B2A41;
+    color: #CCC9DC;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    margin: 5%;
+}
+
+/* HEADER MODS */
+header {
+    max-height: 15%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #0C1821;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #1B9AAA;
+    width: 3em;
+    height: .5em;
+    margin: 0 1em;
+    padding: 1.5em;
+}
+
+/* ABOUT MODS*/
+#about {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.special {
+    font-size: 16px;
+    color: #FF3A20;
+}
+
+/* PORTFOLIO MODS */
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER MODS*/
+footer {
+    background-color: #0C1821;
+    min-height: 10vh;
+    width: 100%;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 COLORS
 #1B9AAA - accent light blue
@@ -7,22 +94,6 @@ COLORS
 #1B2A41 - body
 #FF3A20 - accent red
 #CCC9DC - font
-*/
-
-body {
-    /* BEAUTY MODS */
-    background-color: #1B2A41;
-    color: #CCC9DC;
-    font-family: 'Quicksand', sans-serif;
-}
-
-/* FLEXBOX INSTRUCTIONS*/
-.flex-container {
-        /* FLEX BOX FOR FOOTER - STRUCTER */
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-}
 
 #about, #portfolio, #contact {
     display: flex;
@@ -32,15 +103,10 @@ body {
 }
 
 header {
-    /*  FLEX BOX - STRUCTER*/
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-
-    /* UNSEEN MODS - STRUCTURE */
     padding: 10px;
-
-    /* BEAUTY MODS */
     background-color: #0C1821;
 }
 
@@ -53,23 +119,9 @@ section {
     width: 50vh;
 }
 
-footer {
-    background-color: #0C1821;
-    min-height: 15vh;
-    text-align: center;
-
-    /* FLEX BOX */
-    margin-top: auto;
-}
-
 .column {
     column-count: 2;
     list-style-type: none;
-}
-
-.special {
-    font-size: 16px;
-    color: #FF3A20;
 }
 
 p {
@@ -91,6 +143,11 @@ a {
     padding: 1.5em;
 }
 
+a:hover {
+    border-radius: 50px 15px;
+    background-image: linear-gradient(40deg, rgba(204,201,220,1) 0%, rgba(12,24,33,1) 50%);
+}
+
 h1 {
     font-size: 3em;
 }
@@ -103,18 +160,15 @@ h3 {
     font-size: 1.5em;
 }
 
+a:hover {
+    border-radius: 50px 15px;
+    background-image: linear-gradient(40deg, rgba(204,201,220,1) 0%, rgba(12,24,33,1) 50%);
+} 
+
 img {
     width: 200%;
     height: 200%;
     border-radius: 100px 30px;
 }
 
-.img {
-    display: flex;
-    justify-content: center;
-}
-
-a:hover {
-    border-radius: 50px 15px;
-    background-image: linear-gradient(40deg, rgba(204,201,220,1) 0%, rgba(12,24,33,1) 50%);
-}
+*/
