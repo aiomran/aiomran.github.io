@@ -1,3 +1,10 @@
+<?php
+if($_POST["new client"]) {
+mail("angeleanta.io@gmail.com", "Hiring",
+$_POST["insert your message here"]. "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -29,7 +36,7 @@
 
                 
 
-                <section>
+                <section class="content">
                     <h2>Skills</h2>
                     <ul class="column">
                         <li>HTML</li>
@@ -57,11 +64,14 @@
             <div id="contact">
                 <section>
                     <h2>Contact Me</h2>
-                    <from>
+                    <from action="form.php" method="post">
                         <input type="text" id="client-name" value="Your Name">
                         <br>
                         <br>
-                        <input type="text" id="comp-name" value="Company Name">
+                        <input type="text" id="comp-name" value="Company">
+                        <br>
+                        <br>
+                        <input type="text" name="email">
                         <br>
                         <br>
                         <textarea name="message" rows="20" cols="50">
