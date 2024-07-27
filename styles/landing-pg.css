@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto, Tahoma, Verdana, Arial, sans-serif;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, #hero,
+#quote, #call-to-action  {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-button, .cta-button {
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 35px;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+/***** HEADER *****/
+header {
+    height: 10vh;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/***** HERO SECTION *****/
+#hero {
+    height: 50vh;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stand-out {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: -5px;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+/***** RANDOM INFO SECTION *****/
+#random-info {
+    height: 50vh;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+} 
+
+.people {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    color: grey;
+} 
+
+.man {
+    border-radius: 10%;
+    border: solid 5px #3882F6;
+}
+
+/***** QUOTE SECTION *****/
+#quote {
+    height: 50vh;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/***** CALL TO ACTION SECTION *****/
+#call-to-action {
+    height: 50vh;
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.display {
+    width: 90%;
+    height: 30%;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.cta-button {
+    border: 2px solid white;
+}
+
+.cta-text {
+    color: white;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+/***** FOOTER SECTION *****/
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

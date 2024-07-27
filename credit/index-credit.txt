@@ -1,0 +1,19 @@
+<!-- NAV BAR ICONS -->
+House (Home):
+<a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by lutfix - Flaticon</a>
+
+Person (About):
+<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+
+Squares (Portfolio):
+<a href="https://www.flaticon.com/free-icons/grid" title="grid icons">Grid icons created by Kiranshastry - Flaticon</a>
+
+mail (Contact):
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Tomas Knop - Flaticon</a>
+
+<!-- INTRO BACKGROUND -->
+created by: Alison Quaglia
+https://codepen.io/hylobates-lar/pen/qBbQeON
+
+<!-- FOOTER ARROW -->
+<a href="https://www.flaticon.com/free-icons/down-arrow" title="down arrow icons">Down arrow icons created by th studio - Flaticon</a>

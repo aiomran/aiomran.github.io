@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <a href="#intro"><img src="imgs/home.png" class="icons" alt="house" width="16px" height="16px">HOME</a>
+         <a href="#about"><img src="imgs/about.png" class="icons" alt="person" width="16px" height="16px">ABOUT</a>
+         <a href="#portfolio"><img src="imgs/portfolio.png" class="icons" alt="portfolio" width="16px" height="16px">PORTFOLIO</a>
+      </nav>
+   </header>
+
+   <section id="intro">
+      <div class="black-bg">
+         <h1>aiomran</h1>
+      </div>
+   </section>
+
+   <section id="about">
+      <div class="center">
+         <h2>ABOUT ME</h2>
+         <p>Web Designer &amp; WP Elementor Designer</p>
+      </div>
+
+      <div class="flex">
+         <div class="left">
+            <p class="aio">aio</p>
+         </div>
+
+         <div class="right">
+            <p>Welcome to my website. I am Angie Omran. A web designer who also does WordPress Elementor. I have a passion to make modern day websites. Currently learning the mobile-first approach. Always practicing, and always willing to learn.</p>
+         </div>
+      </div>
+
+      <div>
+         <p class="center">I am good at:</p>
+         <p>HTML</p>
+         <div class="meter">
+            <span style="width: 80%">80%</span>
+         </div>
+
+         <p>CSS</p>
+         <div class="meter">
+            <span style="width: 50%">50%</span>
+         </div>
+
+         <p>JavaScript</p>
+         <div class="meter">
+            <span style="width: 5%">5%</span>
+         </div>
+      </div>
+   </section>
+
+
+   <div class="port-head">
+      <h2>PORTFOLIO</h2>
+   </div>
+   <section id="portfolio">
+      <h2>MY WORK</h2>
+      <p>Click on the image.</p> 
+      <p>It will open a new window.</p>
+      <div>
+         <a href="landing-pg.html" target="_blank">
+            <img src="imgs/landing-pg-thumbnail.jpeg" width="235px" height="235px"/>
+            <p>Landing Page</p>
+         </a>
+      </div>
+   </section>
+
+   <footer>
+      <div class="back-to-top">
+         <a href="#intro"><img src="imgs/up-arrow.png">To the top</a>
+      </div>
+         <p>aiomran</p>
+   </footer>
+   
+</body>
+
+<script>
+   document.addEventListener('scroll', ()=> {
+      const header = document.querySelector('header');
+      if (window.scrollY > 0) {
+         header.classList.add('scrolled');
+      } else {
+         header.classList.remove('scrolled');
+      }
+   })
+</script>
+
+</html>

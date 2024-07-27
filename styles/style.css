@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Hind+Guntur:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Hind Guntur", Montserrat, Tahoma, Verdana, Arial, sans-serif;
+    color: #808080;
+    /* Animated BG */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+/* ANIMATED BG */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/***** HEADER SECTION *****/
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    /* FOR JS SCROOL */
+    transition: background-color 0.4s ease-in-out;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* FOR JS - SCROLL COLOR CHANGE BG COLOR */
+header.scrolled {
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 1);
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 1em;
+    /* FOR JS */
+    transition: color 0.4s ease-in-out;
+}
+
+header nav a:hover {
+    background-color: #C5C5C5;
+    color: #000;
+    opacity: 1;
+}
+
+
+/* FOR JS - SCROLL COLOR CHANGE FONT COLOR*/
+header.scrolled nav a {
+    color: #000;
+}
+
+header.scrolled a:hover {
+    background-color: #C5C5C5;
+}
+
+.icons {
+    padding-right: .5em;
+}
+
+/***** INTRO SECTION *****/
+#intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* ANIMATED BG */
+    
+}
+
+#intro h1 {
+    font-size: 5em;
+    font-weight: 100;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7),
+                 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/***** ABOUT SECTION *****/
+#about {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.center h2, #portfolio h2 {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.aio {
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 5em;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    gap: 5em;
+}
+
+.right {
+    width: 20vw;
+}
+
+.meter { 
+    width: 30vw;
+    height: 2em;
+    background: #E4E5E8;
+    color: white;
+    margin: 1em 0;
+  }
+
+  .meter > span {
+    display: block;
+    height: 100%;
+    background-color: #696969;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /***** PORTFOLIO SECTION *****/
+.port-head {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7),
+                 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.port-head h2 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#portfolio {
+    height: 50vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+}
+
+#portfolio a p {
+    text-align: center;
+}
+
+/***** FOOTER *****/
+footer {
+    height: 20vh;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #C5C5C5;
+}
+
+footer:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+footer img {
+    padding: 0 .5em;
+}
+
+.back-to-top {
+    padding: 1em;
+    background-color: #c5c5c5;
+}
+
+.back-to-top:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.back-to-top a {
+    color: #666;
+    text-decoration: none;
+}
+
+.back-to-top a:hover {
+    color: #000;
+}
