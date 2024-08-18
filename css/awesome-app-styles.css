@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Hind+Guntur:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Hind+Guntur:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Nunito, "Brush Script MT", cursive;
+}
+
+.font {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+/*** FLEX STYLES ***/
+
+.container, header, section, footer {
+    display: flex
+}
+
+.container, header, footer {
+    flex-direction: column;
+}
+
+/*** /FLEX STYLES ***/
+
+.container {
+    width: 100%;
+    min-height: 100vh;  
+    color: #fff; 
+}
+
+header {
+    padding: 5% 0;
+    background-color: #34525B;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: #68B0AB;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #141414;
+}
+
+section {
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    color: #000;
+    flex-grow: 1;
+    align-items: center;
+}
+
+img {
+    width: 128px;
+    height: auto;
+    filter: hue-rotate(100deg);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    padding: 2% 0;
+    text-align: center;
+    background-color: #141414;
+    text-align: center;
+}
+
+.font {
+    font-size: 1.5rem;
+}
+
+footer p i {
+    font-size: 1rem;
+}
+
+a {
+    color: #ccc;
+    padding: 0 15px;
+}
+
+.copyright {
+    color: #858585;
+    font-size: .8rem;
+}
